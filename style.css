@@ -287,6 +287,15 @@ footer{
     gap: 20px;
 }
 @media screen and (max-width: 950px) {
+    .front{
+        position: absolute; 
+        z-index: -99; 
+        top: 760px; 
+        left: -500px;
+        img{
+            width: 10vw;
+        }
+    }
     .back{
         position: absolute; 
         z-index: -99; 
