@@ -347,6 +347,9 @@ footer{
     input{
         height: 30px;
     }
+    .carry{
+        gap: 30px;
+    }
 }
 
 
