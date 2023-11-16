@@ -287,6 +287,21 @@ footer{
     gap: 20px;
 }
 @media screen and (max-width: 950px) {
+    .back{
+        position: absolute; 
+        z-index: -99; 
+        top: -260px; 
+        right: 0px;
+       img{
+        width: 30vw;
+       }
+    }
+    .illuatra img{
+        width: 80vw;
+    }
+    body{
+        overflow-x: hidden;
+    }
     ul{
         display: none;
     }
