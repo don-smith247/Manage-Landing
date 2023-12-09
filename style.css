@@ -20,7 +20,16 @@ body{
     justify-content: space-around;
     padding: 1%;
 }
-ul{
+.menu{
+    display: none;
+}
+.line{
+    width: 25px;
+    height: 4px;
+    margin: 3px;
+    background-color: white;
+}
+.fir-ul{
     display: flex;
     gap: 20px;
     list-style: none;
@@ -41,7 +50,6 @@ button.go{
     border-radius: 20px;
     color: white;
     background-color: hsl(12, 88%, 59%);
-
 }
 .div-txt1{
     height: 240px;
@@ -286,7 +294,25 @@ footer{
     flex-direction: column;
     gap: 20px;
 }
+.firrt-ul{
+    display: none;
+}
 @media screen and (max-width: 950px) {
+    .firrt-ul{
+        display: none;
+        flex-direction: column;
+        background-color: rgb(253, 236, 238);
+        color: white;
+        text-align: center;
+    }
+    .toggle{
+        display: flex;
+    }
+    .yu{
+        background-color: transparent;
+        color: white;
+        border: none;
+    }
     .front{
         position: absolute; 
         z-index: -99; 
@@ -295,6 +321,9 @@ footer{
         img{
             width: 10vw;
         }
+    }
+    button{
+        display: none;
     }
     .back{
         position: absolute; 
@@ -307,6 +336,15 @@ footer{
     }
     .illuatra img{
         width: 80vw;
+    }
+    .fir-ul{
+        display: none;
+    }
+    .menu{
+        display: block;
+        position: absolute;
+        right: 50px;
+        top: -0.5px;
     }
     body{
         overflow-x: hidden;

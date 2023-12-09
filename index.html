@@ -21,13 +21,27 @@
                 <li>Community</li>
             </ul>
         </div>
-        <div>
+        <div class="">
             <button>Get Started</button>
         </div>
         <div class="back">
             <img src="./images/bg-tablet-pattern.svg"  alt="">
         </div>
     </div>
+    <div class="menu" onclick="dropdown()">
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+    </div>
+    <ul class="firrt-ul">
+        <li>Pricing</li>
+        <li>Product</li>
+        <li>About Us</li>
+        <li>Careers</li>
+        <li>Community</li>
+        <li><button class="yu">Get Started</button></li>
+    </ul>
 </nav>
 <section>
     <div class="sron">
@@ -194,31 +208,10 @@
 </footer>
 
 <script>
-    // var cryptoBalace = "large";
-    // console.log(cryptoBalace)
-    // var myName = "abdullahi"
-    // console.log("welcome " + myName)
-    // var firstNumber = 25;
-    // var secondNumber = 40;
-    // console.log(firstNumber + secondNumber)
-    // const num1 = "btvv";
-    // const num2 = 10;
-    // console.log (num1 + num2)
-// var name =  prompt("Enter your name:");
-// console.log("your name is "+name);
-// var accountBalance =  prompt("Enter your Account Balance: ")
-// console.log("Your Balance is "+accountBalance);
-// const name = "mubarak"
-// name = "yusuf"
-// console.log(name);
-// var number1 = Number(prompt("enter your first number"))
-// var number2 = Number(prompt("enter your second number"))
-// var number3 = number1 + number2
-// console.log( "your number is " + number3);
-// const number1 = Number(prompt("enter your first number"))
-// const number2 = Number(prompt("enter your second number"))
-// const number3 = number1 + number2
-// console.log("your number is " + number3);
+    function dropdown(){
+        var menu = document.querySelector(".firrt-ul")
+        menu.classList.toggle("toggle")
+    }
 </script>
 </body>
 </html>
