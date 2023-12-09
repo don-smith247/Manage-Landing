@@ -301,9 +301,10 @@ footer{
     .firrt-ul{
         display: none;
         flex-direction: column;
-        background-color: rgb(253, 236, 238);
+        background-color: rgb(19, 0, 2);
         color: white;
         text-align: center;
+        list-style: none;
     }
     .toggle{
         display: flex;
